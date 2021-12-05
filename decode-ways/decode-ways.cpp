@@ -1,23 +1,18 @@
-class Solution
-{
+class Solution {
 public:
-    int dp[1001]={-1};
-    
-    int numDecodings(string s, int ps = 0)
-    {
-        if (ps == s.size())
-            return 1;
-
-        if (s[ps] == '0')
-            return 0;
-        
-        if(dp[ps] >0) return dp[ps];
-
-        int ret = numDecodings(s, ps + 1);
-        if (ps < s.size() - 1 && (s[ps] == '1' || (s[ps] == '2' && s[ps + 1] < '7')))
-        {
-            ret += numDecodings(s, ps + 2);
+    int numDecodings(string s) {
+        if(s[0] == '0') return 0;
+        int n = s.size();
+        int one_before = 1, two_before = 1;
+        for(int i = 1; i < n; i++) {
+            int cur = 0;
+            if(s[i] != '0') cur = one_before;
+            if(s[i - 1] == '1' || (s[i - 1] == '2' && s[i] <= '6')) {
+                cur += two_before;
+            }
+            two_before = one_before;
+            one_before = cur;
         }
-        return dp[ps] = ret;
+        return one_before;
     }
 };
