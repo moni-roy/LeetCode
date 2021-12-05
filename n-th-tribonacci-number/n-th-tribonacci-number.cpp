@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> dp = vector<int>(40, -1);
+    vector<int> dp = vector<int>(38, -1);
     int tribonacci(int n) {
         if(n == 0) return dp[0] = 0;
         if(n <= 2) return dp[n] = 1;
