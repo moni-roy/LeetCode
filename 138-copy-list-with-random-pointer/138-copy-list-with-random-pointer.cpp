@@ -16,7 +16,7 @@ public:
 
 class Solution {
 public:
-    Node* copyRandomList(Node* head) {
+    Node* copyRandomList1(Node* head) {
         if(!head) return NULL;
         Node* cur = head;
         while(cur){
@@ -41,7 +41,7 @@ public:
         return newHead;
     } // O(n) time, O(1) space
 
-    Node* copyRandomList2(Node* head) {
+    Node* copyRandomList(Node* head) {
         unordered_map<Node*, Node*> m;
         Node* cur = head;
         while(cur){
