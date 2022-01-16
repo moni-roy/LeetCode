@@ -10,24 +10,24 @@
 
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+    TreeNode* lowestCommonAncestorBST(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(root == nullptr || root == p || root == q) {
             return root;
         }
         if(root->val > p->val && root->val > q->val) {
-            return lowestCommonAncestor(root->left, p, q);
+            return lowestCommonAncestorBST(root->left, p, q);
         }
         if(root->val < p->val && root->val < q->val) {
-            return lowestCommonAncestor(root->right, p, q);
+            return lowestCommonAncestorBST(root->right, p, q);
         }
         return root;
     }
-    TreeNode* lowestCommonAncestorDFS(TreeNode* root, TreeNode* p, TreeNode* q) {
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(root == nullptr || root == p || root == q) {
             return root;
         }
-        auto l = lowestCommonAncestorDFS(root->left, p, q);
-        auto r = lowestCommonAncestorDFS(root->right, p, q);
+        auto l = lowestCommonAncestor(root->left, p, q);
+        auto r = lowestCommonAncestor(root->right, p, q);
         
         return !l ? r : !r ? l : root;   
     }
