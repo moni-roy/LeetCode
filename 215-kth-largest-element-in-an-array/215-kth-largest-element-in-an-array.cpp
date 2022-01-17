@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        return findKthLargestUsingHeap(nums, k);
+        return findKthLargestUsingSort(nums, k);
     }
 private:
     int findKthLargestUsingSort(vector<int>& nums, int k) {
