@@ -1,10 +1,10 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        return frequencySortUsingMap(s);
+        return frequencySortWithoutSort(s);
     }
 private:
-    string frequencySortUsingMap(string s) {
+    string frequencySortUsingMapAndSort(string s) {
         unordered_map<char, int> m;
         for (char c : s) {
             m[c]++;
@@ -19,6 +19,21 @@ private:
             for (int i = 0; i < p.first; i++) {
                 ans.push_back(p.second);
             }
+        }
+        return ans;
+    }
+    string frequencySortWithoutSort(string s) {
+        unordered_map<char, int> freq;
+        for (char c: s) {
+            freq[c]++;
+        }
+        vector<string> bucket(s.size() + 1, "");
+        for (auto p: freq) {
+            bucket[p.second].append(p.second, p.first);
+        }
+        string ans="";
+        for (int i = bucket.size() - 1; i >= 0; i--) {
+            ans.append(bucket[i]);
         }
         return ans;
     }
