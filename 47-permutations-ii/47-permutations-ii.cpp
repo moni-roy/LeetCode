@@ -1,29 +1,29 @@
-class Solution
-{
+class Solution {
 public:
-    vector<vector<int>> permuteUnique(vector<int> &nums)
-    {
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> ans;
-        sort(nums.begin(), nums.end());
-        dfs(nums, 0, ans);
+        unordered_map<int, int> uniq;
+        for (int i = 0; i < nums.size(); ++i) {
+            uniq[nums[i]]++;
+        }
+        vector<int> tmp;
+        backtrack(ans, tmp, uniq, nums.size());
         return ans;
     }
-    void dfs(vector<int> &nums, int index, vector<vector<int>> &ans)
-    {
-        if (index == nums.size())
-        {
-            ans.push_back(nums);
+private:
+    void backtrack(vector<vector<int>>& ans, vector<int>& tmp, unordered_map<int, int>& uniq, int n) {
+        if (tmp.size() == n) {
+            ans.push_back(tmp);
             return;
         }
-        unordered_map<int, int> mp;
-        for (int i = index; i < nums.size(); i++)
-        {
-            if (i != index && mp.find(nums[i])!= mp.end())
-                continue;
-            mp[nums[i]] = 1;
-            swap(nums[i], nums[index]);
-            dfs(nums, index + 1, ans);
-            swap(nums[i], nums[index]);
+        for (auto& p : uniq) {
+            if (p.second > 0) {
+                tmp.push_back(p.first);
+                uniq[p.first]--;
+                backtrack(ans, tmp, uniq, n);
+                uniq[p.first]++;
+                tmp.pop_back();
+            }
         }
     }
 };
