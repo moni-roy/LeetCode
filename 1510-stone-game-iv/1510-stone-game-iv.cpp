@@ -10,10 +10,10 @@ private:
         if(n == 1) return true;
         if(n == 2) return false;
         if(visited[n]) return dp[n];
+        visited[n] = true;
         for(int i = 1; i*i <= n; i++) {
             dp[n] = dp[n] | !winnerSquareGameUsingDP(n - i*i, dp, visited);
         }
-        visited[n] = true;
         return dp[n];
     }
 };
