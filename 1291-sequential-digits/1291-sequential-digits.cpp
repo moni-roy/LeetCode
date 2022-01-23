@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
-        return usingSlidingWindow(low, high);
+        return usingGreedy(low, high);
     }
 private:
     vector<int> usingGreedy(int low, int high) {
