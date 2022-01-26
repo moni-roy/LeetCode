@@ -12,8 +12,8 @@
 class Solution {
 public:
     vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
-        vector<int> ans = usingInorder(root1, root2);
-        return ans;
+        // return usingInorder(root1, root2);
+        return usingSort(root1, root2);
     }
 private:
     vector<int> usingInorder(TreeNode* root1, TreeNode* root2) {
@@ -42,5 +42,13 @@ private:
         inorder(root->left, values);
         values.push_back(root->val);
         inorder(root->right, values);
+    }
+
+    vector<int> usingSort(TreeNode* root1, TreeNode* root2) {
+        vector<int> ans;
+        inorder(root1, ans);
+        inorder(root2, ans);
+        sort(ans.begin(), ans.end());
+        return ans;
     }
 };
