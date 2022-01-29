@@ -1,7 +1,7 @@
 class Solution {
 public:
     int countSubstrings(string s) {
-        return usingDP(s);
+        // return usingDP(s);
         return usingExpansion(s);
     }
 private:
