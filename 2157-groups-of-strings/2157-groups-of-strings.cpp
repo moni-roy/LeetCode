@@ -11,7 +11,6 @@ public:
     void connect(int x, int y) {
         x = find(x), y = find(y);
         if (x == y) return;
-        if (size[x] < size[y]) swap(x, y);
         p[y] = x;
         size[x] += size[y];
         n--;
@@ -27,10 +26,6 @@ public:
 class Solution {
 public:
     vector<int> groupStrings(vector<string>& words) {
-        return using_union_find(words);
-    }
-private:
-    vector<int> using_union_find(vector<string>& words) {
         int n = words.size();
         UnionFind uf(n);
         unordered_map<int, int> mapping;
@@ -40,6 +35,7 @@ private:
            for (auto c: words[i]) {
                mask |= 1 << (c - 'a'); // current mask
            }
+           // if(mapping.count(mask)) continue;
            for(int j = 0; j < 26; ++j) {
                 if (mask & (1 << j)) {
                     int new_mask = mask ^ (1 << j); // delete one char
@@ -63,7 +59,7 @@ private:
                     }
                 }
            }
-           mapping[mask] = i;
+           mapping[mask] = uf.find(i);
         }
         int maxSize = 0;
         for (int i = 0; i < n; ++i) {
