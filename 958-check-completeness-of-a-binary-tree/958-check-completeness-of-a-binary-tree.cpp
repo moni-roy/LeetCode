@@ -13,12 +13,28 @@ class Solution {
 public:
     bool isCompleteTree(TreeNode* root) {
         if(!root) return true;
+        return usingBFS(root);
+        
+        // using DFS
         long long count = 0, maxIdx = 0;
         usingDFS(root, 1, count, maxIdx);
-        // cout<<maxIdx<<" "<<count<<endl;
         return count == maxIdx;
     }
 private:
+    bool usingBFS(TreeNode* root) {
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty() && q.front() != nullptr) {
+            TreeNode* cur = q.front();
+            q.pop();
+            q.push(cur->left);
+            q.push(cur->right);
+        }
+        while(!q.empty() && q.front() == nullptr) {
+            q.pop();
+        }
+        return q.empty();
+    }
     void usingDFS(TreeNode* root, long long idx, long long& count, long long& maxIdx) {
         if(!root) return ;
         maxIdx = max(maxIdx, idx);
