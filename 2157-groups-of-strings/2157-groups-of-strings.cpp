@@ -59,7 +59,7 @@ public:
                     }
                 }
            }
-           mapping[mask] = uf.find(i);
+           mapping[mask] = i;
         }
         int maxSize = 0;
         for (int i = 0; i < n; ++i) {
