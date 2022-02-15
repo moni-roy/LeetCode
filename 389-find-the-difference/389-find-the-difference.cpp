@@ -1,15 +1,15 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
-        unordered_map<char, int> m;
+        vector<int> freg(26, 0);
         for (char c : s) {
-            m[c]++;
+            freg[c - 'a'] ++;
         }
         for (char c : t) {
-            if (m[c] == 0) {
+            if (freg[c-'a'] == 0) {
                 return c;
             }
-            m[c]--;
+            freg[c-'a'] --;
         }
         return ' ';
     }
