@@ -23,15 +23,15 @@ class Solution {
 public:
     Node* cloneGraph(Node* node) {
         if(node == NULL) return NULL;
-        unordered_map<Node*, Node*> m;
-        return clone(node, m);
+        unordered_map<Node*, Node*> exists;
+        return dfs(node, exists);
     }
-    Node* clone(Node* node, unordered_map<Node*, Node*>& m) {
-        if(m.find(node) != m.end()) return m[node];
+    Node* dfs(Node* node, unordered_map<Node*, Node*>& exists) {
+        if(exists.find(node) != exists.end()) return exists[node];
         Node* newNode = new Node(node->val);
-        m[node] = newNode;
-        for(Node* n : node->neighbors) {
-            newNode->neighbors.push_back(clone(n, m));
+        exists[node] = newNode;
+        for(Node* neighbor : node->neighbors) {
+            newNode->neighbors.push_back(dfs(neighbor, exists));
         }
         return newNode;
     }
