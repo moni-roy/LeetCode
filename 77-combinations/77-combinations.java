@@ -1,5 +1,5 @@
 public class Solution {
-    HashMap<String, List<List<Integer>>> map = new HashMap<>();
+    // HashMap<String, List<List<Integer>>> map = new HashMap<>();
     public List<List<Integer>> combine(int n, int k) {
 		List<List<Integer>> list = new LinkedList<List<Integer>>();
 		if(k<1) return list;
@@ -9,7 +9,7 @@ public class Solution {
 	private List<List<Integer>> combine(int n, int k, int start) {
 		List<List<Integer>> list = new LinkedList<List<Integer>>();
 		if(k<1) return list;		
-		if(map.containsKey(k+":"+n+":"+start)) return map.get(k+":"+n+":"+start);
+		// if(map.containsKey(k+":"+n+":"+start)) return map.get(k+":"+n+":"+start);
 		
 		for(int i=start;i<=n;i++){
 			if(k==1){
@@ -29,7 +29,7 @@ public class Solution {
 				}
 			}
 		}
-		map.put(k+":"+n+":"+start, list);
+		// map.put(k+":"+n+":"+start, list);
 		return list;
 	}
 }
