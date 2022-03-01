@@ -12,10 +12,18 @@
 class Solution {
 public:
     bool isUnivalTree(TreeNode* root) {
+        if (root == nullptr) return true;
+        if (root->left != nullptr && root->left->val != root->val) return false;
+        if (root->right != nullptr && root->right->val != root->val) return false;
+        return isUnivalTree(root->left) && isUnivalTree(root->right);
+    }
+    
+    bool usingDFS(TreeNode* root) {
         if(!root) return true;
         int val = root->val;
         return dfs(root, val);
     }
+    
     bool dfs(TreeNode *root, int &val) {
         if(!root) return true;
         if(root->val != val) return false;
