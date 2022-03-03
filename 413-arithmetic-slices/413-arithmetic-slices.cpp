@@ -1,22 +1,18 @@
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& nums) {
-        int n = nums.size();
-        if (n < 3) return 0;
-        int ans = 0;
-        
-        int i = 0;
-        while(i < n) {
-            int idx = i + 2;
-            
-            while(idx < n && nums[idx] - nums[idx - 1] == nums[idx - 1] - nums[idx - 2]) {
-                idx++;
+        int len = nums.size();
+        if (len < 3) return 0;
+        int res = 0, idx = 0;
+        while (idx < len) {
+            int idx2 = idx + 2;
+            while (idx2 < len && nums[idx2] - nums[idx2 - 1] == nums[idx2 - 1] - nums[idx2 - 2]) {
+                idx2++;
             }
-            int dif = idx - i - 2;
-            ans += (dif * (dif + 1) / 2);
-            i = idx - 1;
+            int count = idx2 - idx - 2;
+            res += count * (count + 1) / 2;
+            idx = idx2 - 1;
         }
-        
-        return ans;
+        return res;
     }
 };
