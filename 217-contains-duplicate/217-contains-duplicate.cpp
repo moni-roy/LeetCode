@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
+        return containsDuplicateUsingMap(nums);
         return containsDuplicateUsingSet(nums);
     }
 private:
@@ -11,6 +12,15 @@ private:
                 return true;
             }
             hashSet.insert(nums[i]);
+        }
+        return false;
+    }
+    
+    bool containsDuplicateUsingMap(vector<int>& nums) {
+        unordered_map<int, int> mapCount;
+        for(auto num: nums) {
+            mapCount[num] ++;
+            if(mapCount[num] == 2) return true;
         }
         return false;
     }
