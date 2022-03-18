@@ -2,14 +2,11 @@
 class UnionFind {
 private:
     vector<int> parent;
-    vector<int> rank;
 public:
     UnionFind(int n) {
         parent.resize(n);
-        rank.resize(n);
         for (int i = 0; i < n; i++) {
             parent[i] = i;
-            rank[i] = 0;
         }
     }
     int find(int x) {
@@ -20,12 +17,7 @@ public:
         x = find(x);
         y = find(y);
         if (x == y) return;
-        if (rank[x] < rank[y]) {
-            parent[x] = y;
-        } else {
-            parent[y] = x;
-            if (rank[x] == rank[y]) rank[x]++;
-        }
+        parent[x] = y;
     }
     bool same(int x, int y) {
         return find(x) == find(y);
