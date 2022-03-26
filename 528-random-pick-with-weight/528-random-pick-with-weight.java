@@ -26,8 +26,8 @@ class Solution {
         int low = 0, high = csum.length-1, idx = -1;
         while(low <= high){
             int mid = (high + low)/2;
-            if(csum[mid] == num) return mid;
-            if(csum[mid] > num){
+            // if(csum[mid] == num) return mid;
+            if(csum[mid] >= num){
                 // idx = -(mid+1)-1;
                 high = mid - 1;
             }
