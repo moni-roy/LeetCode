@@ -19,20 +19,41 @@ class Solution {
         int num = 1 + random.nextInt(max);
         int idx = getIndex(num);
         //System.out.println("num: "+num+", idx: " + idx);
-        return idx;
+        return (idx<0)?-idx-1:idx;
     }
     
     public int getIndex(int num){
         int low = 0, high = csum.length-1, idx = -1;
+        while(low<=high){
+            int mid = low + (high-low)/2;
+            if(csum[mid] == num) return mid;
+            else if(csum[mid] < num){
+                idx = -(mid+1)-1;
+                low = mid+1;
+            }
+            else{
+                high = mid-1;
+            }
+        }
+        return idx;
+    }
+    
+    public int pickIndex2() {
+        int num = 1 + random.nextInt(max);
+        int idx = getIndex2(num);
+        //System.out.println("num: "+num+", idx: " + idx);
+        return idx;
+    }
+    
+    public int getIndex2(int num){
+        int low = 0, high = csum.length-1, idx = -1;
         while(low <= high){
             int mid = (high + low)/2;
-            // if(csum[mid] == num) return mid;
             if(csum[mid] >= num){
-                // idx = -(mid+1)-1;
                 high = mid - 1;
             }
             else{
-                low = mid+1;
+                low = mid + 1;
             }
         }
         return high + 1;
