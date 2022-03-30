@@ -8,7 +8,7 @@ public:
         return res;
     }
 private:
-    void dfs(string& s, int start, string ip, vector<string>& res) {
+    void dfs(string& s, int start, string& ip, vector<string>& res) {
         if (start == s.size()) {
             if (ip.size() == s.size() + 3) res.push_back(ip);
             return;
@@ -20,7 +20,9 @@ private:
             int num = stoi(sub);
             if (num > 255) break;
             if(ip.size()) sub = "." + sub;
-            dfs(s, start + i, ip + sub, res);
+            ip += sub;
+            dfs(s, start + i, ip, res);
+            ip.erase(ip.size() - sub.size());
         }
     }
 };
