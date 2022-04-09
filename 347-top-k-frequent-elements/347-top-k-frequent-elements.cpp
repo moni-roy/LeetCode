@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        return topKFrequentUsingPriorityQueue(nums, k);
+        return topKFrequentUsingQuickSelect(nums, k);
     }
 private:
     vector<int> topKFrequentUsingPriorityQueue(vector<int>& nums, int k) {
@@ -50,12 +50,10 @@ private:
     }
 
     int partitionIt(vector<int>& nums, int l, int r, unordered_map<int, int>& freq) {
-        int pivotIndex = l + rand() % (r - l + 1);
-        int pivot = nums[pivotIndex];
-        swap(nums[pivotIndex], nums[r]);
+        int pivot = nums[r];
         int i = l;
         for (int j = l; j < r; j++) {
-            if (freq[nums[j]] <= freq[pivot]) {
+            if (freq[nums[j]] >= freq[pivot]) {
                 swap(nums[i], nums[j]);
                 i++;
             }
