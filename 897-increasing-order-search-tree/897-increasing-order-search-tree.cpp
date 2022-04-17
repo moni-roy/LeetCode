@@ -12,6 +12,25 @@
 class Solution {
 public:
     TreeNode* increasingBST(TreeNode* root) {
+		if(!root) return nullptr;
+		TreeNode* dummy = new TreeNode(0);
+		temp = dummy;
+		dfs(root);
+		return dummy->right;
+	}
+private:
+	TreeNode *temp;
+    
+	void dfs(TreeNode* root) {
+		if(!root) return;
+		dfs(root->left);
+		root->left = nullptr;
+		temp->right = root;
+		temp = temp->right;
+		dfs(root->right);
+	}
+//   another solution
+    TreeNode* extraMemory(TreeNode* root) {
         vector<int> inorder;
         dfs(root, inorder);
         TreeNode *ans = new TreeNode(0);
@@ -22,7 +41,6 @@ public:
         }
         return head->right;
     }
-    
     void dfs(TreeNode *root, vector<int> &v) {
         if(!root) return;
         dfs(root->left, v);
