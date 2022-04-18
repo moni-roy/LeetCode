@@ -12,8 +12,18 @@
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-        int cnt = 0;
-        return kthSmallest(root, k, cnt);
+        stack<TreeNode*> s;
+        while (root || !s.empty()) {
+            while (root) {
+                s.push(root);
+                root = root->left;
+            }
+            root = s.top();
+            s.pop();
+            if (--k == 0) return root->val;
+            root = root->right;
+        }
+        return -1;
     }
 private:
     int kthSmallest(TreeNode* root, int k, int& cnt) {
