@@ -17,12 +17,12 @@ public:
         return ret;
     }
     void dfs(vector<vector<int> > &v, TreeNode *r, int l) {
-        if(r==nullptr) return ;
-        if(v.size() == l) {
+        if (r == nullptr) return ;
+        if (v.size() == l) {
             v.push_back(vector<int>());
         }
         v[l].push_back(r->val);
-        dfs(v, r->left, l+1);
-        dfs(v, r->right, l+1);
+        dfs(v, r->left, l + 1);
+        dfs(v, r->right, l + 1);
     }
 };
