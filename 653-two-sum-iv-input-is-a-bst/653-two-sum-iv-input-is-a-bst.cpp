@@ -10,16 +10,13 @@
  * };
  */
 class Solution {
+private:
+    unordered_map<int, bool>mp;
 public:
     bool findTarget(TreeNode* root, int k) {
-        unordered_map<int, bool> mp;
-        return dfs(root, k, mp);
-    }
-private:
-    bool dfs(TreeNode* root, int k, unordered_map<int, bool> &mp) {
         if (!root) return false;
         if (mp.find(k - root->val) != mp.end()) return true;
         mp[root->val] = true;
-        return dfs(root->left, k, mp) || dfs(root->right, k, mp);
+        return findTarget(root->left, k) || findTarget(root->right, k);
     }
 };
