@@ -12,25 +12,16 @@
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
-        vector<int> lr, rl;
-        inOrder(root->left, lr, true);
-        inOrder(root->right, rl, false);
-        if (lr.size() != rl.size()) return false;
-        for (int i = 0; i < lr.size(); i++) if(lr[i] != rl[i]) return false;
-        return true;
+        if(!root) return true;
+        return dfs(root->left, root->right);
     }
-    
-    void inOrder(TreeNode* root, vector<int> &v, bool isLR) {
-        if (!root) {
-            v.push_back(-112);
-            return;
+    bool dfs(TreeNode *left, TreeNode* right) {
+        if(!left && !right) return true;
+        if(!left || !right) return false;
+        
+        if(left->val == right->val) {
+            return dfs(left->left, right->right) & dfs(left->right, right->left);
         }
-        if (isLR) inOrder(root->left, v, isLR);
-        else inOrder(root->right, v, isLR);
-        v.push_back(root->val);
-        if (isLR) inOrder(root->right, v, isLR);
-        else inOrder(root->left, v, isLR);
-        v.push_back(-111);
-        return;
+        return false;
     }
 };
