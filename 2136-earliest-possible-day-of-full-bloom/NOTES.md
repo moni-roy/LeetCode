@@ -1,1 +1,0 @@
-- Sort by grow time so that which take most growing time will plant at first
