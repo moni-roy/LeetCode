@@ -1,8 +1,7 @@
 class Solution {
 public:
     int numWays(int steps, int arrLen) {
-        arrLen = min(steps, arrLen);
-        vector <vector<int> > dp = vector(arrLen, vector(steps + 1, -1));
+        vector <vector<int> > dp = vector(steps, vector(steps + 1, -1));
         return fun(0, steps, arrLen, dp);
     }
 private:
