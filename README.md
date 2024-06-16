@@ -18,4 +18,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Greedy
 |  |
 | ------- |
+| [0330-patching-array](https://github.com/moni-roy/LeetCode/tree/master/0330-patching-array) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/moni-roy/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+# Array
+|  |
+| ------- |
+| [0330-patching-array](https://github.com/moni-roy/LeetCode/tree/master/0330-patching-array) |
