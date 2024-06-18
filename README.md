@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/moni-roy/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -19,8 +20,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/moni-roy/LeetCode/tree/master/0330-patching-array) |
+| [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/moni-roy/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/moni-roy/LeetCode/tree/master/0330-patching-array) |
+| [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Binary Search
+|  |
+| ------- |
+| [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Sorting
+|  |
+| ------- |
+| [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
