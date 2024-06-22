@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0330-patching-array](https://github.com/moni-roy/LeetCode/tree/master/0330-patching-array) |
 | [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
+| [1370-count-number-of-nice-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # Binary Search
 |  |
 | ------- |
@@ -35,3 +36,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0853-most-profit-assigning-work](https://github.com/moni-roy/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Hash Table
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+# Math
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+# Sliding Window
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
