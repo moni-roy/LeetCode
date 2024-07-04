@@ -48,3 +48,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1370-count-number-of-nice-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/moni-roy/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/moni-roy/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
+<!---LeetCode Topics End-->
