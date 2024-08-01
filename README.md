@@ -64,4 +64,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2645-pass-the-pillow](https://github.com/moni-roy/LeetCode/tree/master/2645-pass-the-pillow) |
+## Array
+|  |
+| ------- |
+| [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
+## String
+|  |
+| ------- |
+| [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
 <!---LeetCode Topics End-->
