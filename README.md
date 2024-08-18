@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
 | [2645-pass-the-pillow](https://github.com/moni-roy/LeetCode/tree/master/2645-pass-the-pillow) |
 ## Array
 |  |
@@ -81,9 +82,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 ## Sorting
 |  |
 | ------- |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
 <!---LeetCode Topics End-->
