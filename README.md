@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/moni-roy/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/moni-roy/LeetCode/tree/master/2645-pass-the-pillow) |
 ## Math
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/moni-roy/LeetCode/tree/master/2035-count-sub-islands) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/moni-roy/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
@@ -124,4 +126,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/moni-roy/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+## Binary Search
+|  |
+| ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+## Prefix Sum
+|  |
+| ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
