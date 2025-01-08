@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2035-count-sub-islands](https://github.com/moni-roy/LeetCode/tree/master/2035-count-sub-islands) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/moni-roy/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String
 |  |
 | ------- |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/moni-roy/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/moni-roy/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -157,4 +159,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/moni-roy/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Trie
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Rolling Hash
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Hash Function
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/moni-roy/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 <!---LeetCode Topics End-->
