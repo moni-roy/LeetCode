@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/moni-roy/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1396-count-servers-that-communicate](https://github.com/moni-roy/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2035-count-sub-islands](https://github.com/moni-roy/LeetCode/tree/master/2035-count-sub-islands) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/moni-roy/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/moni-roy/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/moni-roy/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/moni-roy/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/moni-roy/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Binary Search
 |  |
 | ------- |
@@ -235,4 +237,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/moni-roy/LeetCode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/moni-roy/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
