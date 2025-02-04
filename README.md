@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1876-map-of-highest-peak](https://github.com/moni-roy/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/moni-roy/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/moni-roy/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/moni-roy/LeetCode/tree/master/2035-count-sub-islands) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/moni-roy/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
