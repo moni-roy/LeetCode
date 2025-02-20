@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1927-maximum-ascending-subarray-sum](https://github.com/moni-roy/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/moni-roy/LeetCode/tree/master/2035-count-sub-islands) |
+| [2107-find-unique-binary-string](https://github.com/moni-roy/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/moni-roy/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/moni-roy/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2448-count-number-of-bad-pairs](https://github.com/moni-roy/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -120,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/moni-roy/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/moni-roy/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/moni-roy/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2107-find-unique-binary-string](https://github.com/moni-roy/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/moni-roy/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/moni-roy/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/moni-roy/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/moni-roy/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2107-find-unique-binary-string](https://github.com/moni-roy/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2434-design-a-number-container-system](https://github.com/moni-roy/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/moni-roy/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/moni-roy/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -251,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1160-letter-tile-possibilities](https://github.com/moni-roy/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/moni-roy/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/moni-roy/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2107-find-unique-binary-string](https://github.com/moni-roy/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/moni-roy/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## String Matching
 |  |
