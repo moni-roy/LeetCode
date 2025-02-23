@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0494-target-sum](https://github.com/moni-roy/LeetCode/tree/master/0494-target-sum) |
 | [0854-making-a-large-island](https://github.com/moni-roy/LeetCode/tree/master/0854-making-a-large-island) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1025-minimum-cost-for-tickets](https://github.com/moni-roy/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1364-tuple-with-same-product](https://github.com/moni-roy/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/moni-roy/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/moni-roy/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1160-letter-tile-possibilities](https://github.com/moni-roy/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/moni-roy/LeetCode/tree/master/1364-tuple-with-same-product) |
@@ -332,11 +334,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/moni-roy/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/moni-roy/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 <!---LeetCode Topics End-->
