@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/moni-roy/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/moni-roy/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/moni-roy/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/moni-roy/LeetCode/tree/master/2645-pass-the-pillow) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/moni-roy/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/moni-roy/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/moni-roy/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/moni-roy/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/moni-roy/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/moni-roy/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1876-map-of-highest-peak](https://github.com/moni-roy/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/moni-roy/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/moni-roy/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0494-target-sum](https://github.com/moni-roy/LeetCode/tree/master/0494-target-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/moni-roy/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/moni-roy/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -251,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/moni-roy/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/moni-roy/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/moni-roy/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/moni-roy/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/moni-roy/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
