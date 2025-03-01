@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/moni-roy/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/moni-roy/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/moni-roy/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2551-apply-operations-to-an-array](https://github.com/moni-roy/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2645-pass-the-pillow](https://github.com/moni-roy/LeetCode/tree/master/2645-pass-the-pillow) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/moni-roy/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/moni-roy/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/moni-roy/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/moni-roy/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/moni-roy/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2551-apply-operations-to-an-array](https://github.com/moni-roy/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2685-first-completely-painted-row-or-column](https://github.com/moni-roy/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2727-number-of-senior-citizens](https://github.com/moni-roy/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/moni-roy/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -356,4 +358,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/moni-roy/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## Two Pointers
+|  |
+| ------- |
+| [2551-apply-operations-to-an-array](https://github.com/moni-roy/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 <!---LeetCode Topics End-->
